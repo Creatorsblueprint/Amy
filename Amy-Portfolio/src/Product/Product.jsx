@@ -71,7 +71,7 @@ const Product = () => {
       title: "Built While Raisin  g",
       description:
         "Strength that grows alongside motherhood, not in perfect conditions, but in real life.",
-      price: 2,
+      price: 14,
       currency: "usd",
       image: "Images/Ebook/Built_While_Raising_Cover.png", // update if needed
       email: email,
@@ -91,7 +91,7 @@ const Product = () => {
 
   const productInfo = {
     title: "Built While Raising",
-    amount: 27,
+    amount: 14,
     successUrl: "https://amyjeanfox.com/?payment=success",
     cancelUrl: "https://amyjeanfox.com/?payment=cancel",
   };
@@ -193,7 +193,7 @@ const Product = () => {
             <div className={styles.priceRow}>
               <div className={styles.price}>
                 <h1>Price</h1>
-                <p>$27</p>
+                <p>$14</p>
               </div>
 
               <div className={styles.why} onClick={scrollToBenefits}>
